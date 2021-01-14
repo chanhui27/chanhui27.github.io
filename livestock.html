@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>CC's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Chanhui Choi's Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">About</a></li>
+						<li><a href="livestock.html"  class="active">Application</a></li>
+						<li><a href="mobile.html"  >Degree Program Mapper</a></li>
+						<li><a href="objected.html" >OOP</a></li>
+						<li><a href="pp.html" >Personal Project</a></li>
+						<li><a href="grade.html">Grade</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Live Stock Application</h1>
+							<!-- Live stock application -->
+								<section>
+									<h3>C# GUI View</h3>
+									<p><span class="image left"><img src="images/livestock1.PNG" alt="" /></span>Livestock application is an application that uses the GUI of Visual Studio. This application makes it easy for the owner of the farm to calculate the probability of the animals that he or she currently has. The reason of using GUI is to make easier for users to use. Therefore, as you can see in the image, the user can search the details of the animals they have in the database, and if there's a probability they want to know, they can automatically calculate it. Moreover, I arranged the order of which animals produce the most probability. </p>
+									<p><span class="image right"><img src="images/livestock2.PNG" alt="" /></span>The first hurdle for this application is to connect the Visual Studio with the database. There were various ways to connect the database which depends on the type of software is using for the specific database. First of all, the database in this project used the Access Database, so we connected the Access database to the Visual Studio. This database contains details of each animal and their tax information. For example, if there are several cows on the farm, they make unique IDs and collect information about each cow on one table. And here, unlike other animals, it supposed to use the Boolean type to distinguish whether it's just a cow or a Jersy cow, considering if it's a Jersy cow or not. The table containing the tax information also enters the information for each tax. Connect this information to Visual Studio so that users can easily call information using Polymorphism to get the information they want.</p>
+									<h4><a href="https://github.com/chanhui27/LiveStock-Application">github link</a></h4>
+								</section>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
